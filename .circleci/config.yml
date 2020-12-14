@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.13
-    working_directory: /go/src/github.com/stormcat24/protodep
+    working_directory: /go/src/github.com/Kafei59/protodep
     steps:
     - checkout
     - run: 

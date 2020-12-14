@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/gobwas/glob"
-	"github.com/stormcat24/protodep/dependency"
-	"github.com/stormcat24/protodep/helper"
-	"github.com/stormcat24/protodep/logger"
-	"github.com/stormcat24/protodep/repository"
+	"github.com/Kafei59/protodep/dependency"
+	"github.com/Kafei59/protodep/helper"
+	"github.com/Kafei59/protodep/logger"
+	"github.com/Kafei59/protodep/repository"
 )
 
 type protoResource struct {

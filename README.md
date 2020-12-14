@@ -3,9 +3,9 @@ protodep
 
 [![Circle CI](https://circleci.com/gh/stormcat24/protodep.svg?style=shield&circle-token=f53432c65ac4fd4bd4b8b778892690e4032ea141)](https://circleci.com/gh/stormcat24/protodep)
 [![Language](https://img.shields.io/badge/language-go-brightgreen.svg?style=flat)](https://golang.org/)
-[![issues](https://img.shields.io/github/issues/stormcat24/protodep.svg?style=flat)](https://github.com/stormcat24/protodep/issues?state=open)
+[![issues](https://img.shields.io/github/issues/stormcat24/protodep.svg?style=flat)](https://github.com/Kafei59/protodep/issues?state=open)
 [![License: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
-[![GoDoc](https://godoc.org/github.com/stormcat24/protodep?status.png)](https://godoc.org/github.com/stormcat24/protodep)
+[![GoDoc](https://godoc.org/github.com/Kafei59/protodep?status.png)](https://godoc.org/github.com/Kafei59/protodep)
 
 Dependency tool for Protocol Buffers IDL file (.proto) vendoring tool.
 
@@ -22,7 +22,7 @@ If you manage proto files in a git repository, what will you do? Most remote ser
 ### go get
 
 ```bash
-$ go get github.com/stormcat24/protodep
+$ go get github.com/Kafei59/protodep
 ```
 
 ### from binary
@@ -36,7 +36,7 @@ Support as follows:
 * protodep_linux_arm64.tar.gz
 
 ```bash
-$ wget https://github.com/stormcat24/protodep/releases/download/0.0.8/protodep_darwin_amd64.tar.gz
+$ wget https://github.com/Kafei59/protodep/releases/download/0.0.8/protodep_darwin_amd64.tar.gz
 $ tar -xf protodep_darwin_amd64.tar.gz
 $ mv protodep /usr/local/bin/
 ```
@@ -51,7 +51,7 @@ Proto dependency management is defined in `protodep.toml`.
 proto_outdir = "./proto"
 
 [[dependencies]]
-  target = "github.com/stormcat24/protodep/protobuf"
+  target = "github.com/Kafei59/protodep/protobuf"
   branch = "master"
 
 [[dependencies]]

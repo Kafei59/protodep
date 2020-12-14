@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/stormcat24/protodep/dependency"
+	"github.com/Kafei59/protodep/dependency"
 	"github.com/stretchr/testify/require"
 )
 
